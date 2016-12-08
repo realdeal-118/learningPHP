@@ -32,7 +32,7 @@ if($_POST["Submit"]){
         $result='<div class="alert alert-danger"><strong>There were error(s) in your form:</strong>'.$error.'</div>';
     }
     else{
-        if(mail("leotis.fields@yahoo.com", "Comment from Website","Name: ".$_POST."
+        if(mail("lmf@xyz.com", "Comment from Website","Name: ".$_POST."
             
             Email: ".$_POST['email']."
             Comment: ".$_POST['comment'])) {
